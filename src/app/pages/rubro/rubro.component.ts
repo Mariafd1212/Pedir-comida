@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { TarjetaArticuloComponent } from 'src/app/core/components/tarjeta-articulo/tarjeta-producto.component';
+import { TarjetaArticuloComponent } from 'src/app/core/components/tarjeta-producto/tarjeta-producto.component';
 import { Producto } from 'src/app/core/interfaces/productos';
 import { CategoriasService } from 'src/app/core/services/categorias.service';
 import { HeaderService } from 'src/app/core/services/header.service';
