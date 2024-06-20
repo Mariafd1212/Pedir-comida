@@ -1,0 +1,25 @@
+@use "./../../../../assets/styles/variables.scss";
+
+$altura : 30 px;
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    height: 40px;
+    background-color: variables.$color-principal-claro;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+button{
+    border: unset;
+    font-weight: bold;
+    background-color: variables.$color-principal-claro;
+    padding: 0 10 px;
+}
+
+span{
+    line-height: 40px;
+}

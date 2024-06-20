@@ -35,10 +35,11 @@ h1{
   font-size: xx-large;
   font-weight: 800;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .extendido{
-  height: 300px;
+  height: 230px;
   background-color: unset;
 }
 
@@ -52,9 +53,9 @@ h1{
   animation-fill-mode: forwards;
 }
 
-.fondo-imagen{
+/* .fondo-imagen{
 
-}
+} */
 
 @keyframes fade-out {
   100%{
